@@ -1,0 +1,12 @@
+nginx-dep.yaml
+nginx-configmap.yaml
+nginx-svc.yaml
+nginx-ingress.yaml
+app-1-dep.yaml
+app-1-svc.yaml
+app-2-dep.yaml
+app-2-svc.yaml
+app-1-ingress.yaml
+app-2-ingress.yaml
+
+kubectl apply -f app-2-ingress.yaml
